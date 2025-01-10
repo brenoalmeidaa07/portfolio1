@@ -44,13 +44,13 @@ const HeroSection = () => {
             <Typography variant="h2" color="primary.contrastText" textAlign="center">future software developer</Typography>
             <Grid container spacing={3} pt={3} justifyContent="center">
               <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                <StyledButton>
+                <StyledButton onClick={() => console.log("Downloads")}>
                   <DownloadIcon />
                   <Typography>Download CV</Typography>
                 </StyledButton>
               </Grid>
               <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                <StyledButton>
+                <StyledButton onClick={() => console.log("contact")}>
                   <MailOutlineIcon />
                   <Typography>Contact me</Typography>
                 </StyledButton>
