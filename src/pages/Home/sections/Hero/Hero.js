@@ -40,8 +40,8 @@ const HeroSection = () => {
             </Box>
           </Grid>
           <Grid item xs={12} md={7}>
-            <Typography variant="h1" color="primary.contrastText" textAlign="center" pb={2}>Adriana Saty</Typography>
-            <Typography variant="h2" color="primary.contrastText" textAlign="center">I'm a Software Engineer</Typography>
+            <Typography variant="h1" color="primary.contrastText" textAlign="center" pb={2}>Breno Almeida</Typography>
+            <Typography variant="h2" color="primary.contrastText" textAlign="center">future software developer</Typography>
             <Grid container spacing={3} pt={3} justifyContent="center">
               <Grid item xs={12} md={4} display="flex" justifyContent="center">
                 <StyledButton>
